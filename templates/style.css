@@ -1,0 +1,73 @@
+body {
+    
+    text-align: center;
+  
+    background: linear-gradient(to right, #ececec, #80c4ea,#b15aec);
+  }
+
+  h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    font-style: oblique;
+  }
+.logo{
+    width: 80px;
+    position: absolute;
+    left: 510px;
+    top: 20px;
+    
+}
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 40px 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #3b3b3b;
+    font-size: 30px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding-right: 200px;
+    border: none;
+    border-bottom: 2px solid #3b3b3b;
+    
+  }
+
+  input[type="submit"] {
+    padding: 10px 35px;
+    background: linear-gradient(to right, #02b7ff, #8dd7fa);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+    background: linear-gradient(to right, #a403e9, #3498db);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #3b3b3b;
+  }

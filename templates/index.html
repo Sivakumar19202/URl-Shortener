@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Web</title>
+  <link rel="stylesheet" href="D:\URL_Shorter\templates\style.css">
+</head>
+<style>
+ 
+</style>
+
+<body>
+<div class="pic">
+  <img src="D:\URL_Shorter\link (1).png" class="logo" alt="">
+</div>
+
+    <h1>URL Shortener</h1>
+    <form method="post">
+      <label>Original URL:</label>
+      <input type="text" name="url" placeholder="Enter the Link Here">
+      <input type="submit" value="Shorten">
+  
+    </form>
+    {% if short_url %}
+    <p>Short URL: {{ short_url }}</p>
+    {% endif %}
+  
+
+</body>
+
+</html>
